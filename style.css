@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: "Limelight", sans-serif;
+    font-family: "Montserrat", sans-serif;
     background-color: antiquewhite;
 }
 
@@ -38,8 +38,8 @@ body{
 
 /* TEXTO */
 .producto-titulo{
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 600;
     margin-top: 10px;
 }
 
