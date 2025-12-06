@@ -1,7 +1,7 @@
 /*RESET BASICO*/
 
 *{
-    margin: 0;
+    margin: 10;
     padding: 0;
     box-sizing: border-box;
 }
@@ -44,15 +44,15 @@ body{
 }
 
 .producto-desc{
-    font-size: 14px;
-    color: #6d4c41;
+    font-size: 17px;
+    color: brown;
     margin: 10px 15px;
 }
 
 .producto-precio{
     font-size: 18px;
     font-weight: bold;
-    color: #ff4b91;
+    color: brown;
     margin-bottom: 10px;
 }
 
