@@ -45,6 +45,12 @@ header, main, footer{
     position: sticky;
     top: 0;
     z-index: 1000;
+
+    /*Agregando flexbox*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -55,6 +61,11 @@ header, main, footer{
 /* Menú de navegación */
 .nav-lista{
     list-style: none;
+
+    /*Agregando flexbox*/
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 
 /* Estilo de los enlaces del menú */
@@ -72,6 +83,11 @@ header, main, footer{
 /* CONTENEDOR DE PRODUCTOS*/
 .catalogo-contenedor{
     padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
 }
 
 /* TARJETA DEL PRODUCTO */
@@ -85,6 +101,8 @@ header, main, footer{
     transition: transform .2s ease, box-shadow .2s ease;
     /*Para que la badge absoluta se posicione dentro*/
     position: relative;
+
+    flex: 1 1 240px; /*Ocupa mínimo 240px, puede crecer y encoger*/
 }
 
 /* Efecto al pasar el mouse */
