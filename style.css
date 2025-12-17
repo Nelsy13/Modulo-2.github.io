@@ -145,7 +145,7 @@ header, main, footer{
 
 /* BOTÓN DEL PRODUCTO */
 .producto-btn{
-    background: #ff8bb3;
+    background: #FA8EC8;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -157,12 +157,12 @@ header, main, footer{
 }
 
 .producto-btn:hover{
-    background: #e00064;
+    background: #5EA529;
 }
 
 .producto-badge{
     position: absolute;
-    background-color: blueviolet;
+    background-color: #9AE630;
     top: 10px;
     left: 10px;
     color: white;
@@ -187,6 +187,70 @@ ul{
 
 li{
     margin-bottom: 6px;
+}
+
+/*SECCIÓN EQUIPO*/
+.equipo-section{
+    text-align: center;
+    padding: 40px 25px;
+}
+
+.equipo-section p{        /*Solo toma en cuenta los párrafos dentro de la clase equipo-section*/
+    max-width: 700px;
+    margin: 0 auto 20px;
+}
+
+
+.equipo-contenedor{   /*agregando estilo al contenedor*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+.equipo-card{
+    background-color: #F6CFFF;
+    width: 280px;
+    padding: 60px 20px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.20);
+    text-align: center;
+
+    /*flex interno*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+.equipo-foto{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+
+    position:absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.equipo-card h3{
+    margin-top: 30px;
+    color: #e00064;
+}
+
+.equipo-rol{
+    color: brown;
+    font-size: 14px;
+}
+
+.equipo-desc{
+    font-size: 16px;
+    line-height: 1;
+    color: brown;
 }
 
 /* CONTACTO EN DOS COLUMNAS*/
