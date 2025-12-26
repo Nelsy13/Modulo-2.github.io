@@ -13,7 +13,7 @@
 /* Define color de fondo y tipografía*/
 body{
     font-family: "Lexend", sans-serif;
-    background-color: #f7f5fa;
+    background-color: #E8FDEF;
     color: #333;  
 }
 
@@ -84,17 +84,17 @@ header, main, footer{
 /* CONTENEDOR DE PRODUCTOS*/
 .catalogo-contenedor{
     padding: 20px;
-
     display: flex;
     flex-wrap: wrap;
     gap: 23px;
     justify-content: center;
+    background: #E8FDEF;
 }
 
 /* TARJETA DEL PRODUCTO */
 .producto-tarjeta{
     text-align: center;
-    background: #fff;
+    background: white;
     border-radius: 15px;
     overflow: hidden;
     padding-bottom: 20px;
@@ -365,4 +365,46 @@ footer{
     background-color: #cc6742;
     /* Efecto al pasar el ratón sobre el botón */
 
+}
+
+/*DISEÑO RESPONSIVO*/
+
+@media screen and (max-width: 1024px){
+    .nav-principal{
+        padding: 12px 16px;
+    }
+
+    .producto-tarjeta{
+        flex: 1 1 260px;
+    }
+
+    .equipo-card{
+        width: 260px;
+    }
+}
+
+@media screen and (max-width: 768px){
+   .top-banner{
+    font-size: 12px;
+    padding: 8px 12px;
+   }
+
+   .nav-principal{
+    justify-content: center;
+    gap: 12px;
+    padding: 12px 14px;
+   }
+
+   .logo{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+   }
+
+   .nav-lista{
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px 16px;
+   }
 }
