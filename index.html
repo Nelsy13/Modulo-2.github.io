@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
-    <title>Tienda Kawai</title>
+    <title>Librería Seok</title>
 </head>
 
 <body>
@@ -21,21 +21,34 @@
     </header>
 
     <nav class="nav-principal">
-        <h1 class="logo">Librería Austen 🌸</h1>
+        <h1 class="logo">Librería Seok🌸</h1>
         <ul class="nav-lista">
-            <li><a href="#catalogo">Menú</a></li>
+            <li><a href="#autor">Autor</a></li>
             <li><a href="#catalogo">Catálogo</a></li>
             <li><a href="#entregas">Entregas</a></li>
-            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#conocenos">Conócenos</a></li>
             <li><a href="#contacto">Contacto</a></li>
         </ul>
     </nav>
 
+    <div class="genero" id="catalogo">
+        <ul class="nav-lista">
+            <li>Drama</li>
+            <li>Fantasía</li>
+            <li>Ficción </li>
+            <li>No ficción</li>
+            <li>Infantil</li>
+            <li>Juvenil</li>
+            <li>Cómic y Manga</li>
+            <li>Audiolibros</li>
+        </ul>
+    </div>
+
     <main>
         <!-- Catálogo -->
-        <section id="catalogo">
+        <section>
             <h2>Catálogo de productos</h2>
-            <p>Encuentra los productos más kawai para tu escritorio, tu cuarto y tus clases en línea.</p>
+            <p>Encuentra todas las obras de Jane Austen al mejor precio.</p>
 
             <div class="catalogo-contenedor">
                 <!-- Producto 1 -->
@@ -47,7 +60,7 @@
                     <p class="producto-desc">
                         Elinor y Marianne son completamente opuestas. Mientras que Elinor es mucha más racional, sensata y sabe controlar sus sentimientos, Marianne es una persona sensible e intensa que vive cada <a href="#Sentido">Ver más.</a>
                     </p>
-                    <p class="producto-precio">$300 MXN</p>
+                    <p class="producto-precio">$399 MXN</p>
                     <button class="producto-btn">Agregar al carrito</button>
                 </div>
 
@@ -95,7 +108,7 @@
                     <h3 class="producto-titulo">La Abadía de Northanger</h3>
                     <h4>Editorial Penguin</h4>
                     <p class="producto-desc">
-                        Narra la historia de Catherine Morland, una joven muy aficionada a las novelas góticas. Por ello, cuando los Tilney la invitan a pasar una temporada en su casa de campo, se pone a investigar tortuosos e imaginarios secretos de familia. <a href="#Emma">Ver más.</a>
+                        Narra la historia de Catherine Morland, una joven muy aficionada a las novelas góticas. Por ello, cuando los Tilney la invitan a pasar una temporada en su casa de campo, se pone a investigar tortuosos e imaginarios secretos de familia. <a href="#Abadia">Ver más.</a>
                     </p>
                     <p class="producto-precio">$499 MXN</p>
                     <button class="producto-btn">Agregar al carrito</button>
@@ -117,7 +130,7 @@
                     <h3 class="producto-titulo">Obra completa</h3>
                     <h4>Editorial Penguin</h4>
                     <p class="producto-desc">
-                        Las heroínas son Marianne, Elizabeth, Fanny, Emma, Anne o Catherine. En sus órbitas no tardan en aparecer caballeros de dudosa estirpe como John Willoughby o de impecable fibra moral como Mr. Darcy. Diferenciarlos, sin embargo, no es tan fácil como puede pensarse. <a href="#Caja1">Ver más.</a>
+                        Un estuche sin par con las seis novelas de Jane Austen en edición especial de Penguin Clásicos. Sentido y sensibilidad, Orgullo y prejuicio, Mansfield Park, Emma, Persuasión y La abadía de Northanger.
                     </p>
                     <p class="producto-precio">$1099 MXN</p>
                     <button class="producto-btn">Agregar al carrito</button>
@@ -131,7 +144,7 @@
                     <p class="producto-desc">
                         Pack compuesto por seis volúmenes en los que se recoge la obra completa de Jane Austen.
                     </p>
-                    <p class="producto-precio">$1099 MXN</p>
+                    <p class="producto-precio">$1999 MXN</p>
                     <button class="producto-btn">Agregar al carrito</button>
                 </div>
             </div>
@@ -152,15 +165,10 @@
         </section>
 
         <!-- Acerca de -->
-        <section id="acerca">
-            <h2>Acerca de Tienda Kawai</h2>
+        <section id="conocenos">
+            <h2>Conócenos</h2>
             <p>
-                Tienda Kawai nace del amor por la papelería bonita, los detalles especiales y el estilo
-                tierno que hace más ligeros los días de escuela, trabajo y estudio.
-            </p>
-            <p>
-                Seleccionamos productos funcionales pero estéticos, pensando en estudiantes, creadores de
-                contenido y personas que aman organizar su espacio con un toque pastel.
+                Creemos que los libros, las historias que cuentan y las ideas que transmiten, tienen el poder de fortalecer el diálogo y la cohesión social, de cambiarnos y enriquecernos, y contribuyen decisivamente a crear un futuro mejor para las generaciones venideras.
             </p>
         </section>
 
@@ -177,8 +185,8 @@
                     <img class="equipo-foto"
                         src="https://s1.qwant.com/thumbr/474x474/2/1/9f1726ac67ffcfe0c1cd2025c13ba632b290bf269f779cc81cb62aed609921/OIP.7g02VR0HDznkSCGLZEiRngHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.7g02VR0HDznkSCGLZEiRngHaHa%3Fcb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&q=0&b=1&p=0&a=0"
                         alt="Foto CEO">
-                    <h3>WooSeok - CEO</h3>
-                    <p class="equipo-rol"> Estrategia</p>
+                    <h3>WooSeok</h3>
+                    <p class="equipo-rol">CEO</p>
                     <p class="equipo-desc"> Responsable de la gestión general y la estrategia de organización.</p>
 
                 </article>
@@ -188,9 +196,9 @@
                     <img class="equipo-foto"
                         src="https://s1.qwant.com/thumbr/474x663/2/d/c7f791f81993a5013de636dafa8acf9b503c0f05d07bcc82302bdc77c3626d/OIP.6xOd9MkaottCZBrU_bsWJwHaKX.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.6xOd9MkaottCZBrU_bsWJwHaKX%3Fcb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&q=0&b=1&p=0&a=0"
                         alt="Foto diseñadora">
-                    <h3>Youn-jung - Diseñadora</h3>
-                    <p class="equipo-rol"> Planner - Marketing</p>
-                    <p class="equipo-desc"> Crea y gestiona nuestros productos.</p>
+                    <h3>Youn-jung</h3>
+                    <p class="equipo-rol"> Editora</p>
+                    <p class="equipo-desc"> Comunicación directa con editoriales. Selecciona libros en formatos diferentes.</p>
 
                 </article>
 
@@ -199,8 +207,8 @@
                     <img class="equipo-foto"
                         src="https://s2.qwant.com/thumbr/474x632/6/8/3e3a0830184a3f337fc06266b45301b6268a9a999821ff5515fb5f11823a31/OIP.KldyESVQo32GAvX4pnfHWgHaJ4.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.KldyESVQo32GAvX4pnfHWgHaJ4%3Fcb%3Ducfimg2%26pid%3DApi%26ucfimg%3D1&q=0&b=1&p=0&a=0"
                         alt="Foto diseñadora">
-                    <h3> Min-hyun - Atención a clientes</h3>
-                    <p class="equipo-rol"> Soporte - Envios</p>
+                    <h3> Min-hyun</h3>
+                    <p class="equipo-rol"> Atención a clientes</p>
                     <p class="equipo-desc"> Soporte al cliente.</p>
 
                 </article>

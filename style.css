@@ -56,6 +56,13 @@ footer {
     flex-wrap: wrap;
 }
 
+.genero{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .logo {
     font-size: 24px;
     font-weight: bold;
@@ -137,8 +144,9 @@ footer {
 /* DESCRIPCIÓN DEL PRODUCTO */
 .producto-desc {
     font-size: 14px;
-    color: #6d4c41;
+    color: black;
     margin: 10px 15px;
+    text-align: justify;
 }
 
 /* PRECIO */
@@ -184,6 +192,11 @@ section {
 h2 {
     font-size: 28px;
     margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 14px;
+    color: #b7b2b2;
 }
 
 ul {
