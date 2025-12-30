@@ -1,5 +1,5 @@
 
-# Fundamentos del Desarrollo web 🚀
+# Fundamentos del Desarrollo Web 🚀
 
 Este proyecto fue desarrollado con el apoyo de DEV.F. En el siguiente enlace te presento una página web correspondiente a mi proyecto final, desarrollada con HTML y CSS, usando las herramientas y conocimientos adquiridos en cada sesión. 
 
