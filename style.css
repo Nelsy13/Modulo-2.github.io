@@ -96,7 +96,7 @@ footer {
 .catalogo-contenedor {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /*flex-wrap: wrap;*/
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /*flex-wrap: wrap;*/
     gap: 23px;
     justify-content: center;
     background: #E8FDEF;
@@ -113,9 +113,6 @@ footer {
     transition: transform .2s ease, box-shadow .2s ease;
     /*Para que la badge absoluta se posicione dentro*/
     position: relative;
-
-    flex: 1 1 240px;
-    /*Ocupa mínimo 240px, puede crecer y encoger*/
 }
 
 /* Efecto al pasar el mouse */
@@ -213,13 +210,13 @@ li {
 
 .card-horizontal {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
-    padding: 20px;
+    gap: 1.5rem;
+    padding: 1.5rem;
     border: 1px solid #ddd;
     border-radius: 8px;
     margin-bottom: 20px;
-
 }
 
 .card-image {
@@ -237,8 +234,8 @@ li {
 }
 
 .card-description{
-    flex: 1;
-    max-width: 370px;
+    flex: 1 1 280px;
+    max-width: 400px;
     height: auto;
     text-align: center;
 }
@@ -261,7 +258,6 @@ li {
 }
 
 .equipo-section p {
-    /*Solo toma en cuenta los párrafos dentro de la clase equipo-section*/
     max-width: 700px;
     margin: 0 auto 20px;
 }
@@ -336,7 +332,7 @@ li {
 
 /* FORMULARIO */
 .form-contacto {
-    background: white;
+    background: #d4f0b4;
     padding: 20px;
     border-radius: 15px;
 
@@ -356,24 +352,26 @@ li {
 
 /* FOOTER */
 footer{
-    padding: 15px;
+    padding: 2.5rem 3rem;
     margin-top: 30px;
     background-color: #AED581;
     color: green;
 
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .footer{
     list-style: none;
-    gap: 20px;
+    flex: 1 1 200px;
+    min-width: 180px;
 }
 
 .footer a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.95rem;
     color: #3B6411;
 }
 
@@ -462,6 +460,18 @@ footer{
     .equipo-card {
         width: 260px;
     }
+
+    .card-horizontal{
+        flex-direction: row;
+    }
+
+    .img-link{
+        height: 220px;
+    }
+
+    .card-description{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -477,7 +487,6 @@ footer{
     }
 
     .logo {
-        font-size: 20px;
         text-align: center;
         width: 100%;
     }
@@ -486,7 +495,6 @@ footer{
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 12px 16px;
     }
 
     .catalogo-contenedor {
@@ -510,6 +518,10 @@ footer{
 
     .card-description{
         width: 100%;
+    }
+
+    footer{
+        text-align: center;
     }
 }
 
